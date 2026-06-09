@@ -1,7 +1,10 @@
 body {
-  background: linear-gradient(135deg, #0F1A2E, #2C1E4A);
-  text-align: center;
+  background-image: url('images/the-hall-of-quiet-curiousity.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #DDE0E6;
+  text-align: center;
 }
 
 h1 {
