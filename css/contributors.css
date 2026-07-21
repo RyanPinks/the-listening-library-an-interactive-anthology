@@ -3,5 +3,5 @@ text-align: center;
 }
 
 h2 {
-  text-stroke: 1px grey; /*
+  text-shadow: -1px 0px gray;
 }
