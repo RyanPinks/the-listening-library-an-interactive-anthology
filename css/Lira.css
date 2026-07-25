@@ -1,1 +1,102 @@
+/* ————————————————
+   LIRA PAGE THEME
+   Soft, quiet, atmospheric
+——————————————— */
+
+body {
+  background: linear-gradient(180deg, #F6F2FF, #ECE8FF);
+  animation: backgroundBreath 14s ease-in-out infinite;
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: #2D1F4A;
+  line-height: 1.6;
+}
+
+/* Gentle breathing effect */
+@keyframes backgroundBreath {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 0% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.page-wrapper {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.15);
+  border-left: 10px solid #7C3AED;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Soft fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  color: #5B32C0;
+  text-shadow: 0 0 10px rgba(124, 58, 237, 0.25);
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #7C3AED;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Portrait block with shimmer */
+.portrait {
+  width: 100%;
+  height: 240px;
+  background: linear-gradient(135deg, #EDE6FF, #D8D0F8);
+  border-radius: 12px;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.portrait::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  animation: shimmer 6s ease-in-out infinite;
+}
+
+/* Slow shimmer */
+@keyframes shimmer {
+  0% { left: -100%; }
+  50% { left: 0%; }
+  100% { left: 100%; }
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #5B32C0;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 6px rgba(124, 58, 237, 0.15);
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-style: italic;
+  color: #5B32C0;
+  opacity: 0.9;
+}
 
