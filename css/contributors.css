@@ -1,4 +1,16 @@
 body {
   text-align: center;
-  background-color: grey;
+  background-color: #F4E8C1;
+}
+
+h2 (
+text-shadow: 1px 1px 1px 1px color: grey;
+)
+
+.blue-thread{
+text-shadow: 1px 1px 1px 1px color: blue;
+}
+
+.violet-thread{
+text-shadow: 1px 1px 1px 1px color: violet;
 }
