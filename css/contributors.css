@@ -9,16 +9,16 @@ text-shadow: 1.5px 1.5px 1.5px 1.5px color: grey;
 
 .blue-thread{
 text-shadow:
-    -0.05em -0.05em 0 #0000FF,
-     0.05em -0.05em 0 #0000FF,
-    -0.05em  0.05em 0 #0000FF,
-     0.05em  0.05em 0 #0000FF;
+    -0.1em -0.1em 0 #0000FF,
+     0.1em -0.1em 0 #0000FF,
+    -0.1em  0.1em 0 #0000FF,
+     0.1em  0.1em 0 #0000FF;
 }
 
 .violet-thread{
 text-shadow: 
-    -0.05em -0.05em 0 #808080,
-     0.05em -0.05em 0 #808080,
-    -0.05em  0.05em 0 #808080,
-     0.05em  0.05em 0 #808080;
+    -0.1em -0.1em 0 #808080,
+     0.1em -0.1em 0 #808080,
+    -0.1em  0.1em 0 #808080,
+     0.1em  0.1em 0 #808080;
 }
